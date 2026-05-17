@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c2a4e1c32984400a93460fe6d5e491, type: 3}
+  m_Name: Levels
+  m_EditorClassIdentifier: 
+  startingLevel: 3
+  levels:
+  - ship: {fileID: 11400000, guid: 6f88d6d1a5cb64f7e9d0d13eb5497dc2, type: 2}
+    fuelType: 1
+  - ship: {fileID: 11400000, guid: fa5fa8e4aeaa14fcdac67723441c2bc6, type: 2}
+    fuelType: 0
+  - ship: {fileID: 11400000, guid: 1031fb9a9357d4adb8010e9eaa250bbd, type: 2}
+    fuelType: 2
+  - ship: {fileID: 11400000, guid: be1e6dea9dd1645adab1e2758a352eb5, type: 2}
+    fuelType: 0
